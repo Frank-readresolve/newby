@@ -52,7 +52,7 @@ public class ContactInfo {
 
 	@Override
 	public String toString() {
-		return "ContactInfo [Numéro de mobile=" + mobile + ", Adresse email=" + email + "]";
+		return "ContactInfo [Numéro de mobile=" + mobile + ", Adresse email=" + email + "]"+ super.toString();
 	}
     
 }
