@@ -49,4 +49,11 @@ public class School {
     private void setAddress(Address address) {
 	this.address = address;
     }
+
+	@Override
+	public String toString() {
+		return "School [name=" + name + ", address=" + address + ", getName()=" + getName() + ", getAddress()="
+				+ getAddress() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
 }
