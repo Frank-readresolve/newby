@@ -70,6 +70,6 @@ public class Appraisal {
 
 	@Override
 	public String toString() {
-		return "Appraisal [trainee=" + trainee + ", module=" + module + ", grade=" + grade + "]";
+		return "Appraisal [trainee=" + trainee + ", module=" + module + ", grade=" + grade + "]"+ super.toString();
 	}
 }
