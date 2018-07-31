@@ -46,14 +46,11 @@ public class Module {
 	return level;
     }
 
-    @Override
-	public String toString() {
-		return "Module [topic=" + topic + ", level=" + level + "]";
-	}
 
 	private void setLevel(Level level) {
 	this.level = level;
     }
+
 
 	/**
 	 * @param arg0
@@ -103,6 +100,7 @@ public class Module {
 	 */
 	public final int ordinal() {
 		return level.ordinal();
+
 	}
     
     
