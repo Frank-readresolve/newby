@@ -37,4 +37,9 @@ public class Agenda {
     public boolean addEvent(Event event) {
 	return events.add(event);
     }
+
+	@Override
+	public String toString() {
+		return "Agenda [events=" + events + "]";
+	}
 }
