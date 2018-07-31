@@ -52,7 +52,7 @@ public class Room {
 
 	@Override
 	public String toString() {
-		return "Room [school=" + school + ", name=" + name + "]";
+		return "Room [school=" + school + ", name=" + name + "]" + "modification thierry";
 	}
     
     
