@@ -94,6 +94,8 @@ public class Event {
     
     @Override
 	public String toString() {
-		return "Event YOUNES [course=" + course + ", room=" + room + ", start=" + start + ", end=" + end + "]";
+
+		return "Event [course=" + course + ", room=" + room + ", start=" + start + ", end=" + end + "]";
+
 	}
 }
