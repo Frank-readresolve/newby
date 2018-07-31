@@ -95,7 +95,7 @@ public class Event {
     @Override
 	public String toString() {
 
-		return "EventAttentionModifRiskkss [course=" + course + ", room=" + room + ", start=" + start + ", end=" + end + "]";
+		return "Event [course=" + course + ", room=" + room + ", start=" + start + ", end=" + end + "]";
 
 	}
 }
