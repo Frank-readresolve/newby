@@ -54,6 +54,56 @@ public class Module {
 	private void setLevel(Level level) {
 	this.level = level;
     }
+
+	/**
+	 * @param arg0
+	 * @return
+	 * @see java.lang.Enum#compareTo(java.lang.Enum)
+	 */
+	public final int compareTo(Level arg0) {
+		return level.compareTo(arg0);
+	}
+
+	/**
+	 * @param arg0
+	 * @return
+	 * @see java.lang.Enum#equals(java.lang.Object)
+	 */
+	public final boolean equals(Object arg0) {
+		return level.equals(arg0);
+	}
+
+	/**
+	 * @return
+	 * @see java.lang.Enum#getDeclaringClass()
+	 */
+	public final Class<Level> getDeclaringClass() {
+		return level.getDeclaringClass();
+	}
+
+	/**
+	 * @return
+	 * @see java.lang.Enum#hashCode()
+	 */
+	public final int hashCode() {
+		return level.hashCode();
+	}
+
+	/**
+	 * @return
+	 * @see java.lang.Enum#name()
+	 */
+	public final String name() {
+		return level.name();
+	}
+
+	/**
+	 * @return
+	 * @see java.lang.Enum#ordinal()
+	 */
+	public final int ordinal() {
+		return level.ordinal();
+	}
     
     
     
