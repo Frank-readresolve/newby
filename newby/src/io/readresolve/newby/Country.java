@@ -52,7 +52,7 @@ public class Country {
 
 	@Override
 	public String toString() {
-		return "Country [code=" + code + ", name=" + name + "]";
+		return "Country [name=" + name + "]";
 	}
     
 }
