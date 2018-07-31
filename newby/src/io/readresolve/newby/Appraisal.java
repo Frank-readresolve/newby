@@ -70,6 +70,7 @@ public class Appraisal {
 
 	@Override
 	public String toString() {
+		System.out.println("toString de Appraisal");
 		return "Appraisal [trainee=" + trainee + ", module=" + module + ", grade=" + grade + "]"+ super.toString();
 	}
 }
