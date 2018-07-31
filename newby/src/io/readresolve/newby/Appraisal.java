@@ -67,4 +67,9 @@ public class Appraisal {
     private void setGrade(Grade grade) {
 	this.grade = grade;
     }
+
+	@Override
+	public String toString() {
+		return "Appraisal [trainee=" + trainee + ", module=" + module + ", grade=" + grade + "]";
+	}
 }
