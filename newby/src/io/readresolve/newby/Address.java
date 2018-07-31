@@ -50,9 +50,10 @@ public class Address {
 		this.town = town;
 	}
 	
+	
 	@Override
 	public String toString() {
-		return super.toString();
+		return "Address [address=" + road + " "+town+" ]";
 	}
 	
 }
