@@ -51,4 +51,9 @@ public class Diploma {
     private void setYear(Year year) {
 	this.year = year;
     }
+
+	@Override
+	public String toString() {
+		return "Diploma [name=" + name + ", year=" + year + "]";
+	}
 }
