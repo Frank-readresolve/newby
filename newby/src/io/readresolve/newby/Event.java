@@ -9,7 +9,9 @@ import java.time.ZonedDateTime;
  */
 public class Event {
 
-    private Course course;
+
+
+	private Course course;
 
     private Room room;
 
@@ -87,5 +89,13 @@ public class Event {
 
     private void setEnd(ZonedDateTime end) {
 	this.end = end;
+	
     }
+    
+    @Override
+	public String toString() {
+
+		return "Event [course=" + course + ", room=" + room + ", start=" + start + ", end=" + end + "]";
+
+	}
 }

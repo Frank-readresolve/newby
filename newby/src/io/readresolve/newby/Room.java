@@ -49,4 +49,13 @@ public class Room {
     private void setName(String name) {
 	this.name = name;
     }
+
+	@Override
+	public String toString() {
+
+		return "Room est notre ecole [school=" + school + ", name=" + name + "]";
+
+	}
+    
+    
 }

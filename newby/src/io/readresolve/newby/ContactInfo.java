@@ -49,4 +49,10 @@ public class ContactInfo {
     private void setEmail(String address) {
 	email = address;
     }
+
+	@Override
+	public String toString() {
+		return "ContactInfo [Numéro de mobile=" + mobile + ", Adresse email=" + email + "]"+ super.toString();
+	}
+    
 }

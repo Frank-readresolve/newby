@@ -97,4 +97,15 @@ public class Resume {
     public boolean addWorkExperience(WorkExperience experience) {
 	return experiences.add(experience);
     }
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Resume [title=" + title + ", profile=" + profile + ", diplomas=" + diplomas + ", experiences="
+				+ experiences + "]";
+	}
+    
+    
 }

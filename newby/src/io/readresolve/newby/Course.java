@@ -73,4 +73,11 @@ public class Course {
     public boolean addTrainee(Trainee trainee) {
 	return trainees.add(trainee);
     }
+
+	@Override
+	public String toString() {
+		return "Course [module=" + module + ", trainer=" + trainer + ", trainees=" + trainees + "]";
+	}
+    
+    
 }
